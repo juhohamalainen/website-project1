@@ -1,5 +1,6 @@
 
 body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: rgb(32,170,243);
     background: radial-gradient(circle, rgba(224, 224, 224, 0.897) 0%, rgb(255, 255, 255) 100%);
 
@@ -11,4 +12,8 @@ body{
 }
 .whitebg{
     background-color: rgb(255, 255, 255);
+}
+footer {
+    height: 100px;
+    font-size: small;
 }
