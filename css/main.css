@@ -1,13 +1,13 @@
 
 body{
     background: rgb(32,170,243);
-    background: radial-gradient(circle, rgb(0,0,0) 0%, rgba(255,255,255,1) 100%);
+    background: radial-gradient(circle, rgba(224, 224, 224, 0.897) 0%, rgb(255, 255, 255) 100%);
 
 }
 .container{
     background-color: white;
     max-width: 960px;
-    max-height: 1000px;
+    max-height: 4000px;
 }
 .whitebg{
     background-color: rgb(255, 255, 255);
