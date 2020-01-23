@@ -6,6 +6,7 @@ body{
 .container{
     background-color: rgb(255, 255, 255);
     max-width: 960px;
+    min-height: 800px;
     max-height: 5000px;
     padding-left: 0px;
     padding-right: 0px;
