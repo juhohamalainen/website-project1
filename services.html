@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+ <style>
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+     }
+  img{
+  opacity: 0.7;
+}
+
+  </style>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title> W A T C H E R</title>
@@ -8,10 +28,10 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-  <div class="container">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body>
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="index.html">W A T C H E R</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -25,8 +45,8 @@
                   <a class="nav-link" href="watches.html">Watches</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="services.html">Services</a>
-                </li>
+                    <a class="nav-link" href="services.html">Services</a>
+                  </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Photos</a>
                 </li>
@@ -39,40 +59,47 @@
               </ul>
             </div>
           </nav>
-                                      
-<center><img src="images/banner2.jpeg"width="930px" class="responsive"></center>
-<div class= "row">
-        <div class="col-sm-3 whitebg">
-            <p></p>
-                <h3>Links</h3>
-                        <ul>
-                        <li><a href="https://visualstudio.microsoft.com/">ASDASD</a></u></li>
-                        <li><a href="https://unity.com">ASASD</a></u></li>
-                        <li><a href="https://www.mysql.com/">ASDASD</a></u></li>
-        </div>
-        <div class="col-sm-6 whitebg">
-            <p></p>
-<h1>Luxury Watches</h1>
-<p>Watcher is the ultimate destination for luxury watches for men and women, with a wide variety of styles 
-  and collections to suit all wrists. Take your pick from high-end designer timepieces by brands including 
-  TAG Heuer, Omega, Rolex, Breitling and more.</p>
-</div>
-
-<div class="col-sm-3 whitebg">
     <p></p>
-  Follow us on social media:
-  <p></p>
-  <img src="https://ps.w.org/social-media-buttons-toolbar/assets/icon-128x128.png?rev=1396749">
-</div>
+
+       
+    <h1 align="center">
+        Services for your watch
+    </h1>
+      <div class ="row">
+          <div class="column">
+              <h2 align="center">Free evaluation</h2>
+            <img src="images/SwissMechanism.jpg" width="100%">
+            <p>We will do a free evaluation on your watch to determine what repairs are needed for it.</p> 
+          </div>
+          <div class="column">
+              <h2 align="center">Repair</h2>
+            <img src="images/SeikoGears.jpg" width="100%" align="center">
+            <p>What repairs we offer are listed down below. Pricing varies</p>
+          </div>
+      </div>
+
+      <div>
+          <h1>Repair services</h1>
+          <ul>
+              <li>Band Repair, Replacement, or Resizing</li>
+              <li>Band & Case Refinishing</li>
+              <li>Battery Replacement </li>
+              <li>Dial Repair</li>
+              <li>Engraving</li>
+              <li>Gasket Replacement</li>
+              <li>Refurbishment</li>
+          </ul>
+      </div>
+      
+
+
+
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </div>
-  </div>
-    <br>
-    <br>
-    <div>
-      <footer><center>© 2020 WATCHER</center></footer>
-      </div>
+   
+   
     </body>
+
 </html>
