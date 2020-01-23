@@ -4,9 +4,11 @@ body{
     background-color: white;
 }
 .container{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     max-width: 960px;
     max-height: 5000px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .whitebg{
     background-color: rgb(255, 255, 255);
@@ -14,4 +16,11 @@ body{
 footer {
     height: 100px;
     font-size: small;
+}
+.row{
+    max-width: 960px;
+    max-height: 5000px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
 }
