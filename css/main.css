@@ -4,12 +4,13 @@ body{
     background-color: white;
 }
 .container{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     max-width: 960px;
     min-height: 780px;
     max-height: 5000px;
     padding-left: 0px;
     padding-right: 0px;
+    overflow: auto;
 }
 .whitebg{
     background-color: rgb(255, 255, 255);
