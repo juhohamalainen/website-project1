@@ -4,7 +4,7 @@ body{
     background-color: white;
 }
 .container{
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     max-width: 960px;
     min-height: 780px;
     max-height: 5000px;
@@ -14,14 +14,19 @@ body{
 .whitebg{
     background-color: rgb(255, 255, 255);
 }
-footer {
+footer{
     height: 100px;  
     font-size: small;
 }
-.row{
-    max-width: 960px;
-    max-height: 5000px;
-    padding-left: 0px;
-    padding-right: 0px;
-    
+
+@media screen and (max-width: 360px) {
+    .twitter{
+        width: 5%;
+    }
+    .insta{
+        width: 5%;
+    }
+    .face{
+        width: 5%;
+    }
 }
