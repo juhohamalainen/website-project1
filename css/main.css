@@ -22,7 +22,9 @@ footer{
 .navbar{
     width: 100%;
 }
-
+.img{
+    max-width: 30px;
+}
 @media screen and (min-width: 360px) {
     .twitter{
         width: 5%;
