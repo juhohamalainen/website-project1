@@ -36,3 +36,7 @@ footer{
         width: 5%;
     }
 }
+.some:hover{
+    opacity: 0.7;
+}
+
