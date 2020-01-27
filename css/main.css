@@ -5,7 +5,7 @@ body{
 }
 .container{
     background-color: rgb(255, 255, 255);
-    max-width: 960px;
+    max-width: 1000px;
     min-height: 780px;
     max-height: 5000px;
     padding-left: 0px;
