@@ -57,5 +57,7 @@ footer{
     font-size: 24px;
     cursor: pointer;
     display: inline-block;
-    color: rgb(216, 210, 178);
+    color: rgb(228, 222, 187);
+    width: 100%;
+    
   }
