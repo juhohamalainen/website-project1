@@ -62,6 +62,7 @@ footer{
     cursor: pointer;
     display: inline-block;
     color: rgb(216, 210, 178);
+    width:100%;
   }
 
   .container1 {
