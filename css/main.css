@@ -35,6 +35,10 @@ footer{
     .face{
         width: 5%;
     }
+    .pad{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 .some:hover{
     opacity: 0.7;
