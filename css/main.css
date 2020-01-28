@@ -1,6 +1,6 @@
 
 body{
-    font-family: Courier New, Courier, monospace;
+    font-family: 'Darker Grotesque';font-size: 24px;
     background-color: white;
 }
 .container{
@@ -17,7 +17,7 @@ body{
 }
 footer{
     height: 100px;  
-    font-size: small;
+    font-size: 16px;
 }
 .navbar{
     width: 100%;
