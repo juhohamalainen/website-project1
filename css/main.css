@@ -57,7 +57,7 @@ footer{
 .btn {
     border: none;
     background-color: rgb(31, 31, 31);
-    padding: 14px 28px;
+    padding: 0px;
     font-size: 26px;
     cursor: pointer;
     display: inline-block;
