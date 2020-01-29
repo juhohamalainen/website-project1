@@ -56,13 +56,13 @@ footer{
 
 .btn {
     border: none;
-    background-color: rgb(31, 31, 31);
+    background-color: grey;
     padding: 14px 28px;
-    font-size: 26px;
+    font-size: 24px;
     cursor: pointer;
     display: inline-block;
-    color: rgb(212, 212, 212);
-    width:300px;
+    color: rgb(216, 210, 178);
+    width:350px;
   }
 
   .container1 {
